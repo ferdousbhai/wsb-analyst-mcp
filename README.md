@@ -20,6 +20,10 @@ A Model Context Protocol (MCP) server that provides real-time WallStreetBets dat
 - **Progress Reporting**: Real-time progress updates during data collection
 - **MCP Integration**: Seamless integration with Claude Desktop and other MCP clients
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ferdousbhai-wsb-analyst-mcp).
+
 ## Requirements
 
 - Python 3.12 or higher
