@@ -11,6 +11,16 @@ A Model Context Protocol (MCP) server that provides real-time WallStreetBets dat
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@ferdousbhai/wsb-analyst-mcp/badge" alt="WSB Analyst Server MCP server" />
 </a>
 
+## Trading options?
+
+[spicytrade](https://spicy.trade) reads the WallStreetBets hot page every morning before the open, researches the names against live options data, and publishes a daily options brief. It also serves quotes, IV rank and percentile, term structure and a catalyst calendar, as a hosted MCP server.
+
+```bash
+claude mcp add --transport http spicytrade https://spicy.trade/mcp
+```
+
+Any MCP client that speaks Streamable HTTP can use the same address. The public tier needs no account and no install. Nothing it returns, the brief included, is investment advice.
+
 ## Features
 
 - **Fetch WallStreetBets Posts**: Filter posts by score, comment count, and content type
